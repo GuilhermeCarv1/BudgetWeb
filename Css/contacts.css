@@ -1,0 +1,64 @@
+
+.containerLocation{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgba(49, 86, 165, 0.938);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(58, 57, 57);
+    color: aliceblue;
+    text-shadow: 5px 5px 10px rgba(190, 189, 240, 0.534);
+    
+    justify-content: space-between;
+}
+#mapid { 
+    border: 2px solid rgb(235, 235, 235);
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+   
+}
+
+.ContainerForm input, button, textarea{
+    background: transparent;
+    border-bottom: none;
+    border: 0.5px solid rgb(247, 245, 245);
+    color: aliceblue;
+    padding-left: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+    
+}
+.ContainerForm{
+    width: 100%;
+    text-align: center;
+
+}
+.ContainerForm label{
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.ContainerForm label input{
+    background-color: rgb(247, 255, 255);
+}
+textarea{
+    background-color: rgb(255, 255, 255);
+}
+.ContainerForm textarea{
+    margin: 30px;
+}
+.ContainerForm button{
+    padding: 11px;
+    border-radius: 30px;
+    width: 90px;
+}
+@media screen and (min-width: 1000px) {
+    .containerLocation{
+        display: flex;
+    }
+    .ContainerForm{
+        width: 400px;
+    }
+}

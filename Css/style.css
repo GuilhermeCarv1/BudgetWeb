@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(182, 221, 221, 0.397) !important; 
+}
+
+#MenuNav{
+    position:fixed;
+    width: 100%;
+    top: 10px;
+    display: visible;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+#MenuNav ul li a{
+    text-decoration: none;
+
+}
+#navbarSupportedContent ul li {
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px 20px;
+}
+#navbarSupportedContent a{
+    color: rgb(23, 105, 199);
+    font-size: 20px;
+}
+#navbarSupportedContent a:hover{
+    color: rgb(111, 119, 161);
+}
+.edithover:hover{
+    width: 20px;
+    height: 20px;
+}
+.textfooter{
+    color: rgb(31, 122, 226);
+}
+.ContaineOcamento{
+    margin-top: 120px;
+    
+}
+
+.ContainerInterno{
+    background-color:  rgba(49, 86, 165, 0.938);
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+#containePRin{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+#box{
+    height: 700px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    padding: 10px;
+    background:rgba(96, 66, 136, 0.027) ;
+}
+.Gallery-001 img{
+    width: 200px;
+}
+#spanGallery{
+    background-color: rgba(0, 0, 0, 0.062);
+    padding: 15px;
+}
+.spanGallery{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.spanGallery img{
+    width: 500px;
+    height: auto;
+    
+}
+.spanGallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.02);
+}
+
+label input{
+    margin-top: 6px;
+    border-radius: 10px;
+   
+}
+#checkbox input{
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    
+}
+#footer{
+    background-color: rgb(11, 26, 94);
+}
