@@ -62,18 +62,24 @@ body{
     padding: 10px;
     background:rgba(96, 66, 136, 0.027) ;
 }
+#box a{
+    text-decoration: none;
+    color: black;
+}
 .Gallery-001 img{
     width: 200px;
 }
 #spanGallery{
     background-color: rgba(0, 0, 0, 0.062);
     padding: 15px;
+    margin-bottom: 50px;
 }
 .spanGallery{
     width: 100%;
     height: auto;
     text-align: center;
     margin: auto;
+    
 }
 
 .spanGallery img{
