@@ -36,5 +36,10 @@ var url = 'https://rss.tecmundo.com.br/feed';
             car1 += '<a class="card-title" href="'+ objeto_json.items[1].link +'">'+ objeto_json.items[1].title + '</a>'
             car1 += '</div>'
 
-    
-    }});
+}});
+
+$(document).ready(function(){
+    setTimeout(function(){
+       alert('Boas-vindas ao website');
+       },5000);
+});
