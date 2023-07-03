@@ -40,6 +40,6 @@ var url = 'https://rss.tecmundo.com.br/feed';
 
 $(document).ready(function(){
     setTimeout(function(){
-       alert('Boas-vindas ao website');
+       alert('Boas-vindo ao website');
        },5000);
 });
