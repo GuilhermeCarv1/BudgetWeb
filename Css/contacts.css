@@ -9,7 +9,6 @@
     color: aliceblue;
     text-shadow: 5px 5px 10px rgba(190, 189, 240, 0.534);
     
-    justify-content: space-between;
 }
 #mapid { 
     border: 2px solid rgb(235, 235, 235);
@@ -17,6 +16,7 @@
     width: 100%;
     border-radius: 10px;
     margin-top: 30px;
+
    
 }
 
@@ -31,8 +31,9 @@
     
 }
 .ContainerForm{
-    width: 100%;
+    width: 500px;
     text-align: center;
+    
 
 }
 .ContainerForm label{
@@ -41,7 +42,9 @@
 
 }
 
-
+#ContainerMaps{
+    width: 100%;
+}
 
 .ContainerForm textarea{
     margin: 30px;

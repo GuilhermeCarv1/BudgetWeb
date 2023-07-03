@@ -29,10 +29,10 @@
                         <a class="nav-link" href="./index-home.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index-orçamento.html">ORÇAMENETO</a>
+                        <a class="nav-link" href="./index-orçamento.html">BUDGET</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index-contactos.html">CONTACTOS</a>
+                        <a class="nav-link" href="./index-contactos.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -40,19 +40,19 @@
     </nav>
     <div class="container containerLocation">
         
-        <div class="ContainerForm">
-            <h2>Contacto</h2>
-            <label>Nome : <input type="text" name="nome" id="nome" onchange="validadorName(this)"></label><br>
-            <label>Apelido : <input type="text" name="apelido" id="apelido" onchange="validadorApelido(this)"></label><br>
-            <label>Telemóvel : <input type="text" name="number" id="number" onchange="validadorNunber(this)"></label><br>
+        <div class="ContainerForm" style="width: 100%;">
+            <h2>Contact</h2>
+            <label>Name : <input type="text" name="nome" id="nome" onchange="validadorName(this)"></label><br>
+            <label>Surname : <input type="text" name="apelido" id="apelido" onchange="validadorApelido(this)"></label><br>
+            <label>Telephone : <input type="text" name="number" id="number" onchange="validadorNunber(this)"></label><br>
             <label>Email : <input type="email" name="email" id="email" onchange="validadorEmail(this)"></label><br>
-            <label>Data : <input type="date" name="date" id="date" onchange="validadorDate(this)"></label><br>
+            <label>Date : <input type="date" name="date" id="date" onchange="validadorDate(this)"></label><br>
             <textarea placeholder="Motivo do Contacto" name="motivo" id="motivo" cols="30" rows="5" onchange="validadorMotivo(this)"></textarea><br>
-            <button onclick="enviar()">Enviar</button>
+            <button onclick="enviar()">Send</button>
         </div>
         <div id="ContainerMaps">
             <div id="mapid"></div><br>
-            <p>A distância entre o escritório da sua localização: <span id="Distancia"></span> metros.</p><hr>
+            <p>The distance is from: <span id="Distancia"></span> meters.</p><hr>
         </div>
     </div>
     <div class="container-fluidtext-white text-center Containe-padding" id="footer">

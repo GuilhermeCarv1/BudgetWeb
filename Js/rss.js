@@ -21,21 +21,6 @@ var url = 'https://rss.tecmundo.com.br/feed';
             };
             $("#box").html(frase);
 
-            var card = "";
-            for (i = 3; i < 4; i++){
-                card += '<div class="card col more"  style="width: 18rem; margin-top: 10px;">'
-                card += '<img src="'+ objeto_json.items[i].enclosure.link +'" class="card-img-top" alt="img">'
-                card += '<div class="card-body">'
-                card += '<h5 class="card-title">'+ objeto_json.items[i].title + '</h5>'
-                card += '<a href="' + objeto_json.items[i].link +'" class="btn btn-primary">Saiba +</a>'
-                card += '</div>'
-                card += '</div>'
-
-            };
-            
-            
-            $("#cardpri").html(card);
-
             var gallery = "";
             for (i = 0; i < objeto_json.items.length; i++){
                 gallery += '<div class="col-3">'

@@ -23,10 +23,10 @@
                         <a class="nav-link" href="./index-home.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index-orçamento.html">ORÇAMENETO</a>
+                        <a class="nav-link" href="./index-orçamento.html">BUDGET</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index-contactos.html">CONTACTOS</a>
+                        <a class="nav-link" href="./index-contactos.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -34,14 +34,14 @@
     </nav>
     <div class="container Containe-padding ContaineOcamento">
         <div class="ContainerInterno">
-            <h2>Dados</h2><br>
-            <label>Nome: <input type="text"></label><br>
-            <label>Apelido: <input type="text"></label><br>
-            <label>Telefone: <input type="number" name="Telefone" id="Telefone"></label><br><br>
+            <h2>Data</h2><br>
+            <label>Name: <input type="text"></label><br>
+            <label>Surname: <input type="text"></label><br>
+            <label>Telephone: <input type="number" name="Telefone" id="Telefone"></label><br><br>
             <hr><br>
-            <h2>Pedido de orçamento</h2><br>
+            <h2>Budget request</h2><br>
             <label>
-                Tipo de pagina web: 
+                Web page type: 
                 <div class="btn-group">
                     <button id="btmsit" class="btn btn-secondary" disabled>web</button>
                     <button id="btnseco" type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
@@ -50,10 +50,10 @@
                     <ul class="dropdown-menu" onchange="CalculoTotal()">
                        <li><button class="dropdown-item" onclick="valueSits('1')">Blog 500€</button></li>
                        <li><button class="dropdown-item" onclick="valueSits('2')">Portfólio 700€</button></li>
-                       <li><button class="dropdown-item" onclick="valueSits('3')">Loja virtual 900€</button></li>
-                       <li><button class="dropdown-item" onclick="valueSits('4')">Site institucional 1400€</button></li>
-                       <li><button class="dropdown-item" onclick="valueSits('5')">Site dinâmico 1700€</button></li>
-                       <li><button class="dropdown-item" onclick="valueSits('6')">Outro Modelo </button></li>
+                       <li><button class="dropdown-item" onclick="valueSits('3')">Virtual store 900€</button></li>
+                       <li><button class="dropdown-item" onclick="valueSits('4')">Institutional website 1400€</button></li>
+                       <li><button class="dropdown-item" onclick="valueSits('5')">Dynamic website 1700€</button></li>
+                       <li><button class="dropdown-item" onclick="valueSits('6')">Another model </button></li>
                     </ul>
                 </div>
             </label><br>
@@ -61,18 +61,18 @@
             <hr><br>
             <h3>Marque os separadores desejado</h3><br>
             <div id="checkbox" onchange="CalculoTotal()">
-                <label><input type="checkbox" onclick="FuncCheck(1)" name="QuemSomos" id="QuemSomos">Quem somos</label>
-                <label><input type="checkbox" onclick="FuncCheck(2)" name="OndeEstamos" id="OndeEstamos">Onde estamos</label><br>
-                <label><input type="checkbox" onclick="FuncCheck(3)" name="GaleriaFotografias" id="GaleriaFotografias">Galeria de fotografias</label>
+                <label><input type="checkbox" onclick="FuncCheck(1)" name="QuemSomos" id="QuemSomos">Who we are</label>
+                <label><input type="checkbox" onclick="FuncCheck(2)" name="OndeEstamos" id="OndeEstamos">Where are we</label><br>
+                <label><input type="checkbox" onclick="FuncCheck(3)" name="GaleriaFotografias" id="GaleriaFotografias">Photo gallery</label>
                 <label><input type="checkbox" onclick="FuncCheck(4)" name="eCommerce" id="eCommerce">eCommerce</label><br>
-                <label><input type="checkbox" onclick="FuncCheck(5)" name="GestaoInterna" id="GestaoInterna">Gestão interna</label>
-                <label><input type="checkbox" onclick="FuncCheck(6)" name="Noticias" id="Noticias">Notícias</label>
-                <label><input type="checkbox" onclick="FuncCheck(7)" name="RedesSociais" id="RedesSociais">Redes sociais</label><br><br>
+                <label><input type="checkbox" onclick="FuncCheck(5)" name="GestaoInterna" id="GestaoInterna">Internal management</label>
+                <label><input type="checkbox" onclick="FuncCheck(6)" name="Noticias" id="Noticias">News</label>
+                <label><input type="checkbox" onclick="FuncCheck(7)" name="RedesSociais" id="RedesSociais">Social media</label><br><br>
             </div>
            
             <hr><br>
-            <h3>Orçamento estimado</h3><br>
-            <p>(É meramente um indicativo, pode sofrer alterações)</p>
+            <h3>Estimated budget</h3><br>
+            <p>(This is merely indicative, subject to change)</p>
             <div type="text" id="total"></div>
         </div>
     </div>
@@ -113,22 +113,22 @@
                     break;
                 case '3':
                     valorSite = 900;
-                    $("#btmsit").text("Loja virtual")
+                    $("#btmsit").text("Virtual store")
                     console.log(valorSite)
                     break;
                 case '4':
                     valorSite = 1400;
-                    $("#btmsit").text("Site institucional")
+                    $("#btmsit").text("Institutional website")
                     console.log(valorSite)
                     break;
                 case '5':
                     valorSite = 1600;
-                    $("#btmsit").text("Site dinâmico")
+                    $("#btmsit").text("Dynamic website")
                     console.log(valorSite)
                     break;
                 case '6':
                     valorSite = 0;
-                    $("#btmsit").text("Outro Modelo")
+                    $("#btmsit").text("Another model")
                     console.log(valorSite)
                     break;
             }
