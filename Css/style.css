@@ -56,15 +56,11 @@ body{
     
 }
 #box{
-    height: 700px;
+    height: 600px;
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.212);
     padding: 10px;
     background:rgba(96, 66, 136, 0.027) ;
-}
-#box a{
-    text-decoration: none;
-    color: black;
 }
 .Gallery-001 img{
     width: 200px;
@@ -94,8 +90,11 @@ body{
 
 label input{
     margin-top: 6px;
-    border-radius: 10px;
-   
+    border: 0.5px solid;   
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+    background: transparent;
+    color: white;
 }
 #checkbox input{
     width: 20px;

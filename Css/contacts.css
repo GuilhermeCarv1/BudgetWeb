@@ -1,7 +1,7 @@
 
 .containerLocation{
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     background-color: rgba(49, 86, 165, 0.938);
     padding: 30px;
     border-radius: 20px;
@@ -38,14 +38,11 @@
 .ContainerForm label{
     margin: 10px;
     font-size: 20px;
-    
+
 }
-.ContainerForm label input{
-    background-color: rgb(247, 255, 255);
-}
-textarea{
-    background-color: rgb(255, 255, 255);
-}
+
+
+
 .ContainerForm textarea{
     margin: 30px;
 }
